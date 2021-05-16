@@ -1,0 +1,19 @@
+{
+  "name": "miningmanager",
+  "version": "1.0.0",
+  "description": "Mining Manager for Local Stuff",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "email": "furkanarabaci@hotmail.com",
+    "name": "Furkan Arabaci"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+      "build": "tsc -p ./dist",
+      "start": "yarn run build -- -w"
+  }
+}
